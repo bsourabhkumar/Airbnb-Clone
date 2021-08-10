@@ -1,0 +1,49 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    background-color:white;
+    z-index: 100;
+    width: 100%;
+
+}
+
+.header_icon{
+    object-fit: contain;
+    height: 90px;
+    margin-left: 30px;
+}
+
+.header_center{
+    display:flex;
+    flex: 1;
+    align-items: center;
+    max-width: fit-content;
+    padding: 10px;
+    height: 30px;
+    border: 1px solid lightgray;
+    border-radius: 25px;
+    
+    
+}
+
+.header_center > input {
+    border: none;
+    width:200%;
+    margin-right:5px;
+}
+
+.header_right{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 80px;
+
+}
+.header_right > p{
+    margin-right: 5px;
+}
+.header_right > LanguageIcon
+.header_right > p
